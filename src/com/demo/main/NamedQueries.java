@@ -15,10 +15,8 @@ public class NamedQueries {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
-
 		/*
 		 * Query hqlnamedquery = session.getNamedQuery("UserDetails.byId");
 		 * hqlnamedquery.setInteger(0, 5);
